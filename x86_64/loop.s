@@ -1,6 +1,7 @@
 .global _start
 
 # as loop.s -o loop.o && ld loop.o -o loop
+# gcc -nostdlib -o fact fact.s
 
 _start:
     movl $10, %eax      # Set loop counter to 10
